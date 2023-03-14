@@ -1,0 +1,4 @@
+aiogram==2.25.1
+aiohttp==3.8.4
+loguru==0.6.0
+tls-client==0.1.8
