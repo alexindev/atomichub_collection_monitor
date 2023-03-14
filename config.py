@@ -2,6 +2,9 @@ from time import time
 
 
 TOKEN = ''
+channel_id = '@crpcod'
+channel_url = 'https://t.me/crpcod'
+admins = [292951639, ]
 
 
 headers = {
