@@ -3,7 +3,7 @@ from loguru import logger
 from aiogram import types, executor, Dispatcher, Bot
 from aiogram.dispatcher.filters import Text
 
-from config import TOKEN
+from config import *
 from database import Database
 from bot import start_parsing
 from kb import *
@@ -11,10 +11,6 @@ from kb import *
 bot = Bot(TOKEN)
 dp = Dispatcher(bot)
 base = Database()
-
-channel_id = '@crpcod'
-channel_url = 'https://t.me/crpcod'
-admins = [292951639, ]
 
 
 # проверка подписки
